@@ -1,4 +1,15 @@
-# Composition Example
+# Aggregation Example
+# If we want to change association level
+# from aggregation to composition, all we
+# have to do is pass arguments of the content 
+# class to the container class and create 
+# objects in the __init__() method.
+# e.g. pass the text to SubChapter and create
+# Paragraph (content) inside the __init__() 
+# method of the SubChapter (container) class.
+# By doing so the Paragraph instance will become
+# dependent to SubChapter instance's lifespan.
+
 class Paragraph:
     def __init__(self, text):
         self.text = text
