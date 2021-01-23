@@ -205,3 +205,15 @@ Often, the best way to deal with it is to avoid it. If you have a design showing
 this, you're probably doing it wrong. Take a step back, analyze the system again, and
 see if you can remove the multiple inheritance relationship in favor of some other
 association or composite design.
+
+### Recap
+* Object-oriented analysis (**OOA**)
+* Object-oriented design (**OOD**)
+* Object-oriented programming (**OOP**)
+* Unified Modeling Language (**UML**)
+* **Classes** describe **objects**.
+* The model is an **abstraction** of a real concept.
+* **Abstraction** is the process of **encapsulating** information with separate public and private **interfaces**. The private interfaces can be subject to **information hiding**.
+* **Composition** is the act of collecting several objects together to create a new one.
+* **Aggregation** is almost exactly like **composition**. The difference is that aggregate objects can exist independently.
+* **Polymorphism** is the ability to treat a class differently depending on which subclass is implemented.
