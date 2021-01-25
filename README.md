@@ -26,6 +26,9 @@ and **setattr**(**class_name**, attr_name, value) sets attribute of a class.
 * **__ setitem __**(self, index, item)
 * **__ getitem __**(self, index)
 * **__ del __** finalizer.
+* class_name.**__ bases __** to list parent classes.
+* **super(class_name, self).parent_class_method()** to use a super with parent class method.
+* class_name.**__ mro __** returns the order parent classes are searched for methods. (Method Resolution Order)
 
 
 ## Table of Contents
