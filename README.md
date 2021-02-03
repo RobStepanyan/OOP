@@ -15,7 +15,7 @@
 * **Aggregation** is almost exactly like **composition**. The difference is that aggregate objects can exist independently.
 * **Polymorphism** is the ability to treat a class differently depending on which subclass is implemented.
 * **Attribute** of an **object** is called **property**, while **attribute** of a **class** is still called **attribute**
-* object.**__ dict __** and **vars**(object) both return properties of an objet as
+* object.**__ dict __** and **vars**(object) both return properties of an object as
  a dictionary
 * **dir**(object) and object.**__ dir __** both return attributes (including 
 properties) of an object and methods as a **list of variable names**.
@@ -28,7 +28,10 @@ and **setattr**(**class_name**, attr_name, value) sets attribute of a class.
 * **__ del __** finalizer.
 * class_name.**__ bases __** to list parent classes.
 * **super(class_name, self).parent_class_method()** to use a super with parent class method.
+The **super().parent_class_method()** is applicable only with single inheritance.
 * class_name.**__ mro __** returns the order parent classes are searched for methods. (Method Resolution Order)
+* **Metaclass** is a class whose instances are classes. Its magic methods are
+__ new __, __ init __, __ prepare __, __ call __.
 
 
 ## Table of Contents
